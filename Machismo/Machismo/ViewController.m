@@ -7,14 +7,12 @@
 //
 
 #import "ViewController.h"
-//#import "Deck.h"
 #import "PlayingCardDeck.h"
 #import "CardMatchingGame.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) CardMatchingGame *game;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
-//@property (strong, nonatomic) Deck *deck;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
 @end
 
@@ -27,12 +25,6 @@
     return _game;
     
 }
-
-//- (Deck *)deck
-//{
-//    if (!_deck) _deck = [self createDeck];
-//        return _deck;
-//}
 
 -(Deck *)createDeck
 {

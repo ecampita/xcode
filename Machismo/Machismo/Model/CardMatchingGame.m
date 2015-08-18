@@ -57,7 +57,6 @@ static const int COST_TO_CHOOSE = 1;
     if (!card.isMatched) {
         if (card.isChosen) {
             card.chosen = NO;
-        
         } else {
         //match against other chosen cards
         for (Card *otherCard in self.cards) {
