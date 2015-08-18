@@ -1,3 +1,2 @@
 # xcode
-xcode project.
-
+Based on Stanford IOS lessons. 
