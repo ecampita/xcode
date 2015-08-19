@@ -16,7 +16,6 @@
 		6F975ABA1B7EB385000362B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F975AB91B7EB385000362B3 /* ViewController.m */; };
 		6F975ABD1B7EB385000362B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F975ABB1B7EB385000362B3 /* Main.storyboard */; };
 		6F975ABF1B7EB385000362B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F975ABE1B7EB385000362B3 /* Assets.xcassets */; };
-		6F975AC21B7EB385000362B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F975AC01B7EB385000362B3 /* LaunchScreen.storyboard */; };
 		6F975ACB1B7ECAB4000362B3 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F975ACA1B7ECAB4000362B3 /* Card.m */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +36,6 @@
 		6F975AB91B7EB385000362B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6F975ABC1B7EB385000362B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F975ABE1B7EB385000362B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6F975AC11B7EB385000362B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F975AC31B7EB385000362B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F975AC91B7ECAB4000362B3 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
 		6F975ACA1B7ECAB4000362B3 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 				6F975AB91B7EB385000362B3 /* ViewController.m */,
 				6F975ABB1B7EB385000362B3 /* Main.storyboard */,
 				6F975ABE1B7EB385000362B3 /* Assets.xcassets */,
-				6F975AC01B7EB385000362B3 /* LaunchScreen.storyboard */,
 				6F975AC31B7EB385000362B3 /* Info.plist */,
 				6F975AB21B7EB385000362B3 /* Supporting Files */,
 			);
@@ -170,7 +167,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F975AC21B7EB385000362B3 /* LaunchScreen.storyboard in Resources */,
 				6F975ABF1B7EB385000362B3 /* Assets.xcassets in Resources */,
 				6F975ABD1B7EB385000362B3 /* Main.storyboard in Resources */,
 			);
@@ -203,14 +199,6 @@
 				6F975ABC1B7EB385000362B3 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6F975AC01B7EB385000362B3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6F975AC11B7EB385000362B3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -308,6 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.Machismo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,6 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.Machismo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

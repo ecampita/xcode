@@ -14,9 +14,15 @@
 @property (strong, nonatomic) CardMatchingGame *game;
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
+@property (weak, nonatomic) IBOutlet UIButton *dealButton;
 @end
 
 @implementation ViewController
+- (IBAction)touchDealButton:(id)sender
+{
+    self.scoreLabel.text = @"Dealling now!";
+    [self game];
+}
 
 - (CardMatchingGame *)game
 {
@@ -31,18 +37,19 @@
     return [[PlayingCardDeck alloc]init];
 }
 
-
-- (IBAction)touchCard:(UIButton *)sender
-{
-    NSInteger chosenButtonIndex = [self.cardButtons indexOfObject:sender];
+- (IBAction)touchCard:(UIButton *)sender {
+    
+//    [sender setBackgroundImage:[UIImage imageNamed:@"cardback"] forState:UIControlStateNormal];
+    int chosenButtonIndex = [self.cardButtons indexOfObject:sender];
     [self.game chooseCardAtIndex:chosenButtonIndex];
     [self updateUI];
-    
 }
+
+
 - (void)updateUI;
 {
     for (UIButton *cardButton in self.cardButtons) {
-        NSUInteger cardButtonIndex = [self.cardButtons indexOfObject:cardButton];
+        int cardButtonIndex = [self.cardButtons indexOfObject:cardButton];
         Card *card = [self.game cardAtIndex:cardButtonIndex];
         [cardButton setTitle: [self titleForCard:card] forState:UIControlStateNormal];
         [cardButton setBackgroundImage:[self backgroundImageForCard:card] forState:UIControlStateNormal];
