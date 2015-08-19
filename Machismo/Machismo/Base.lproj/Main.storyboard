@@ -19,112 +19,112 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KV6-jE-Mc1">
                                 <rect key="frame" x="20" y="74" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="BeW-75-7Wr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U7c-g5-4An">
                                 <rect key="frame" x="92" y="74" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="RfS-1U-FHR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecr-3e-91k">
                                 <rect key="frame" x="164" y="74" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="15X-QQ-MVf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGU-WZ-Hrb">
                                 <rect key="frame" x="236" y="74" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="cQd-BP-Qqz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0YW-lj-wcq">
                                 <rect key="frame" x="20" y="178" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="nmb-HP-OeM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6IT-CQ-Boa">
                                 <rect key="frame" x="92" y="178" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="dyg-Fx-VyB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8LS-tp-MRb">
                                 <rect key="frame" x="164" y="178" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="V0a-TH-kje"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GU4-dP-aAt">
                                 <rect key="frame" x="236" y="178" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="ooB-Eh-p4v"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jrA-Aw-nIx">
                                 <rect key="frame" x="20" y="282" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="ZsN-kQ-HY0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBd-iU-Sfx">
                                 <rect key="frame" x="92" y="282" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="fNC-aO-9Xg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1s-iR-YpT">
                                 <rect key="frame" x="164" y="282" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="zDB-8F-gDF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="24X-nf-A3k">
                                 <rect key="frame" x="236" y="282" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="wvz-vV-Hty"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKo-F2-tyG">
                                 <rect key="frame" x="20" y="386" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="AKo-je-iab"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YLZ-as-Xc3">
                                 <rect key="frame" x="92" y="386" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="4Oa-zv-4EC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBC-AQ-OtC">
                                 <rect key="frame" x="164" y="386" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="nbI-kU-Hci"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OuL-L0-ank">
                                 <rect key="frame" x="236" y="386" width="64" height="96"/>
-                                <state key="normal" title="ai" backgroundImage="cardfront"/>
+                                <state key="normal" backgroundImage="cardback"/>
                                 <connections>
                                     <action selector="touchCard:" destination="vxx-L1-3k3" eventType="touchUpInside" id="yfP-ar-j2A"/>
                                 </connections>
@@ -175,6 +175,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cardfront" width="315" height="310"/>
+        <image name="cardback" width="181" height="251"/>
     </resources>
 </document>
