@@ -38,6 +38,7 @@
             }
         }
     }
+    
     return self;
 }
 
@@ -71,11 +72,13 @@ static const int COST_TO_CHOOSE = 1;
                     self.score -= MISMATCH_PENALTY;
                     otherCard.chosen = NO;
                 }
+                
                 break; //can only choose 2 carDs for now.
             }
         }
         self.score -= COST_TO_CHOOSE;
         card.chosen = YES;
+        
         }
     }
 };

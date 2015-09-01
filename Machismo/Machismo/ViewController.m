@@ -15,13 +15,20 @@
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
 @property (weak, nonatomic) IBOutlet UIButton *dealButton;
+@property (weak, nonatomic) IBOutlet UILabel *detailsLabel;
+@property (weak, nonatomic) IBOutlet UISwitch *modeSwitch;
+@property (weak, nonatomic) IBOutlet UILabel *modeLabel;
+
 @end
 
 @implementation ViewController
 - (IBAction)touchDealButton:(id)sender
 {
-    self.scoreLabel.text = @"Dealling now!";
-    [self game];
+    [self updateUI];
+    _game = [[CardMatchingGame alloc] initWithCardCount:[self.cardButtons count]
+                                      usingDeck:[self createDeck]];
+    self.detailsLabel.text = @"Dealling now!";
+
 }
 
 - (CardMatchingGame *)game
@@ -55,8 +62,10 @@
         [cardButton setBackgroundImage:[self backgroundImageForCard:card] forState:UIControlStateNormal];
         cardButton.enabled = !card.isMatched;
         self.scoreLabel.text = [NSString stringWithFormat:@"Score: %ld", (long)self.game.score];
+        self.detailsLabel.text = [NSString stringWithFormat:@"Card touched is %@", [self titleForCard:card]];
     }
 }
+
 
 - (NSString *)titleForCard:(Card *)card
 {
@@ -69,6 +78,15 @@
 }
 
 
+- (IBAction)modeSwitch:(id)sender {
+    
+    if ([self.modeLabel.text  isEqual: @"2-card match mode"]) {
+        self.modeLabel.text = @"3-card match mode";
+    } else if ([self.modeLabel.text isEqual: @"3-card match mode"]) {
+        self.modeLabel.text = @"2-card match mode";
+    }
+
+}
 
 
 
